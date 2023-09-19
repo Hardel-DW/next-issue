@@ -1,10 +1,8 @@
-
-// wait 2s
 const getData = async () => {
-    return await new Promise((resolve, reject) => {
+    return await new Promise((resolve) => {
         setTimeout(() => {
             resolve('data')
-        }, 5000)
+        }, 5000);
     })
 }
 
